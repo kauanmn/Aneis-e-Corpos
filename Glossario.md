@@ -26,12 +26,11 @@ Página com as definições e termos usados na disciplina.
 
 **PARTE 2 - HOMOMORFISMO DE ANEIS**
 
-- [Homomorfismo de aneis](#homomorfismo-de-aneis)
-- [Homomorfismo de aneis com unidade](#homomorfismo-de-aneis-com-unidade)
+- [Homomorfismo de anéis](#homomorfismo-de-anéis)
+- [Homomorfismo de anéis com unidade](#homomorfismo-de-anéis-com-unidade)
 - [Tipos de Homomorfismos](#tipos-de-homomorfismos)
 - [Ideal](#ideal)
-- [Ideal Principal Gerado](#ideal-principal-gerado)
-- [Ideal Gerado](#ideal-gerado)
+- [Ideais Gerados](#ideais-gerados)
 
 
 <br>
@@ -149,3 +148,87 @@ Obs.: $n \cdot x = (x + \cdots + x) = 0$
 Sejam $R$ um anel e $S \subseteq R$
 
 💡 Se $S$ é um anel com as mesmas operações de $R$, então $S$ é um **SUBANEL** de $R$
+
+
+<br>
+
+
+## Homomorfismo de anéis
+
+Sejam $A,B$ anéis.
+
+💡 Uma função $\phi: A \rightarrow B$ é chamada de **HOMOMORFISMO** de anéis se, $\forall a,b \in A$, se vale que:
+
+```math
+\displaylines{
+  & \phi (a+b) = \phi (a) + \phi (b) \\
+  & \phi (a \cdot b ) = \phi (a) \cdot \phi (b)
+}
+```
+
+
+<br>
+
+
+## Homomorfismo de anéis com unidade
+
+Sejam $A, B$ anéis com unidade e $\phi : A \rightarrow B$ um homomorfismo de anéis.
+
+💡 Se $\phi (1_{A}) = 1_{B}$, então $\phi$ é um **HOMOMORFISMO DE ANEIS COM UNIDADE** (ou homomorfismo que preserva unidades).
+
+
+<br>
+
+
+## Tipos de homomorfismos
+
+Sejam $A, B$ anéis e $\phi : A \rightarrow B$ um homomorfismo de anéis. Então, temos os seguintes tipos de homomorfismos:
+
+<br>
+
+| Tipo         | Propriedade                |
+|--------------|----------------------------|
+| Endomorfismo | $A = B$                    |
+| Monomorfismo | $\phi$ é injetor           |
+| Epimorfismo  | $\phi$ é sobrejetor        |
+| Isomorfismo  | $\phi$ é bijetor           |
+| Automorfismo | $\phi$ é bijetor e $A = B$ |
+
+<br>
+
+Seja $f:X \rightarrow Y$ uma função qualquer:
+
+| Função    | Propriedade                                           |
+|-----------|-------------------------------------------------------|
+| Injetora  | Se $f(x) = f(x')$, então $x = x'$                     |
+| Subjetora | $\forall y \in Y, \exists x \in X$ tal que $f(x) = y$ |
+| Bijetora  | $f$ é uma função injetora E sobrejetora               |
+
+
+<br>
+
+
+## Ideal
+
+Sejam $A$ um anel e $I$ um subconjunto $\neq \emptyset$ de $A$.
+
+💡 Se $I$ é um grupo aditivo e, $\forall a \in A$ e $\forall r \in I$ tal que vale $ar, ra \in I$, então $I$ é um **IDEAL** de $A$.
+
+Escrito de outra forma,
+> Se $I$ é um subgrupo aditivo de $A$ não vazio e $aI = \\{ ar / r \in I \\} , Ia = \\{ ra / r \in I \\} \subseteq I$, então $I$ é um **IDEAL** de $A$
+
+
+<br>
+
+
+## Ideais Gerados
+
+Sejam $R$ um anel comutativo com $1$ e $a \in R$.
+
+💡 Se o conjunto \< $a$ \>  $= Ra = \\{ ra / r \in R \\}$ é um ideal de $R$, então \< $a$ \> é o **IDEAL PRINCIPAL GERADO POR $a$**
+
+<br>
+
+Sejam $R$ um anel comutativo com $1$ e $a_{1}, \cdots , a_{n} \in R$
+
+💡 Se $I=$ \< $a_{1}, \cdots , a_{n}$ \> $= \\{ r_1 a_1 + \cdots + r_n a_n / r_i \in R \\}$ é um ideal de $R$, então $I$ é um **IDEAL GERADO POR** $a_{1}, \cdots , a_{n}$
