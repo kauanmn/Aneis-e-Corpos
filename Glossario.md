@@ -24,14 +24,28 @@ Página com as definições e termos usados na disciplina.
 
 <br>
 
-**PARTE 2 - HOMOMORFISMO DE ANEIS**
+**PARTE 2 - HOMOMORFISMO E IDEAIS**
 
 - [Homomorfismo de anéis](#homomorfismo-de-anéis)
 - [Homomorfismo de anéis com unidade](#homomorfismo-de-anéis-com-unidade)
 - [Tipos de Homomorfismos](#tipos-de-homomorfismos)
+- [Imagem](#imagem)
+- [Kernel](#kernel)
 - [Ideal](#ideal)
-- [Ideais Gerados](#ideais-gerados)
+- [Ideal Gerado](#ideal-gerado)
+- [Ideais Próprios e Triviais](#ideais-próprios-e-triviais)
+- [Ideal Maximal](#ideal-maximal)
+- [Ideal Primo](#ideal-primo)
 
+<br>
+
+**PARTE 3 - ANÉIS QUOCIENTES**
+
+- [Equivalência](#equivalência)
+- [Classe](#classe)
+- [Classes de Equivalência](#classes-de-equivalência)
+- [Anel Quociente](#anel-quociente)
+- [Projeção Canônica](#projeção-canônica)
 
 <br>
 
@@ -208,6 +222,38 @@ Seja $f:X \rightarrow Y$ uma função qualquer:
 <br>
 
 
+## Imagem
+
+Sejam $A,B$ anéis e $\phi : A \rightarrow B$ um homomorfismo de anéis.
+
+💡 A **IMAGEM** de $\phi$ é o conjunto
+
+```math
+\text{Im } \phi = \{ b \in B \mid \exists a \in A \text{ tal que } \phi (a) = b \} \text{ ou }
+```
+
+```math
+\text{Im } \phi = \{ \phi (a) \mid a \in A \}
+```
+
+
+<br>
+
+
+## Kernel
+
+Sejam $A,B$ anéis e $\phi : A \rightarrow B$ um homomorfismo de anéis.
+
+💡 O **KERNEL** de $\phi$ é o conjunto
+
+```math
+\text{ker } \phi = \{ a \in A \mid \phi (0_{A}) = 0_{B} \}
+```
+
+
+<br>
+
+
 ## Ideal
 
 Sejam $A$ um anel e $I$ um subconjunto $\neq \emptyset$ de $A$.
@@ -215,20 +261,144 @@ Sejam $A$ um anel e $I$ um subconjunto $\neq \emptyset$ de $A$.
 💡 Se $I$ é um grupo aditivo e, $\forall a \in A$ e $\forall r \in I$ tal que vale $ar, ra \in I$, então $I$ é um **IDEAL** de $A$.
 
 Escrito de outra forma,
-> Se $I$ é um subgrupo aditivo de $A$ não vazio e $aI = \\{ ar / r \in I \\} , Ia = \\{ ra / r \in I \\} \subseteq I$, então $I$ é um **IDEAL** de $A$
+> Se $I$ é um subgrupo aditivo de $A$ não vazio e $aI = \\{ ar \mid r \in I \\} , Ia = \\{ ra \mid r \in I \\} \subseteq I$, então $I$ é um **IDEAL** de $A$
 
 
 <br>
 
 
-## Ideais Gerados
+## Ideal Gerado
 
 Sejam $R$ um anel comutativo com $1$ e $a \in R$.
 
-💡 Se o conjunto \< $a$ \>  $= Ra = \\{ ra / r \in R \\}$ é um ideal de $R$, então \< $a$ \> é o **IDEAL PRINCIPAL GERADO POR $a$**
+💡 Se o conjunto \< $a$ \>  $= Ra = \\{ ra \mid r \in R \\}$ é um ideal de $R$, então \< $a$ \> é o **IDEAL PRINCIPAL GERADO POR $a$**
 
 <br>
 
 Sejam $R$ um anel comutativo com $1$ e $a_{1}, \cdots , a_{n} \in R$
 
-💡 Se $I=$ \< $a_{1}, \cdots , a_{n}$ \> $= \\{ r_1 a_1 + \cdots + r_n a_n / r_i \in R \\}$ é um ideal de $R$, então $I$ é um **IDEAL GERADO POR** $a_{1}, \cdots , a_{n}$
+💡 Se $I=$ \< $a_{1}, \cdots , a_{n}$ \> $= \\{ r_1 a_1 + \cdots + r_n a_n \mid r_i \in R \\}$ é um ideal de $R$, então $I$ é um **IDEAL GERADO POR** $a_{1}, \cdots , a_{n}$
+
+
+<br>
+
+
+## Ideais Próprios e Triviais
+
+Seja $R$ um anel.
+
+💡 O ideal $\{ 0 \}$ é chamado **IDEAL TRIVIAL** de $R$
+
+💡 Se $I \triangleleft R$ tal que $I \subsetneq R$, $I$ é um **IDEAL PRÓPRIO** de $R$
+
+💡 Se $I \triangleleft R$ que não é trivial ou próprio, então $I$ é um **IDEAL PRÓPRIO NÃO TRIVIAL**
+
+
+<br>
+
+
+## Ideal Maximal
+
+Seja $R$ um anel e $M$ um ideal próprio de $R$ ( $M \subsetneq R$ ).
+
+💡 Se, $\forall J$ ideal de $R$, vale que
+
+```math
+M \subseteq J \iff J = M \text{ ou } J = R
+```
+
+então $M$ é um **IDEAL MAXIMAL**.
+
+
+<br>
+
+
+## Ideal Primo
+
+
+
+
+<br>
+
+
+## Equivalência
+
+Sejam $A$ um anel, $I$ um ideal de $A$ e $a,b \in A$.
+
+💡 A relação de **EQUIVALÊNCIA** é definida como segue:
+
+```math
+  a \sim b \iff a - b \in I
+```
+
+<br>
+
+Esta relação possui as seguintes propriedades:
+
+| Propriedade | Descrição                                    |
+|-------------|----------------------------------------------|
+| Reflexiva   | $a \sim a \in I$                             |
+| Simétrica   | Se $a \sim b \in I$, então $b \sim a \in I$  |
+| Transitiva  | Se $a \sim b$ e $b \sim c$, então $a \sim c$ |
+
+
+<br>
+
+
+## Classe
+
+Sejam $A$ um anel, $I$ um ideal de $A$ e $a \in A$.
+
+💡 Denotamos por $a + I$ a **CLASSE** de $a$. Isto é,
+
+```math
+  a + I = \{ a + b \mid b \in I \} \text{ ou}
+```
+``` math
+a + I = \{ b \in A \mid a - b \in I \}
+```
+
+
+<br>
+
+
+## Classes de Equivalência
+
+Sejam $A$ um anel, $I$ um ideal de $A$ e $a \in A$.
+
+💡 Denotamos por $A/I$ o conjunto das **CLASSES DE EQUIVALÊNCIA** de $A$ (pela relação $\sim$). Isto é,
+
+```math
+A/I = \{ a + I \mid a \in A \}
+```
+
+
+<br>
+
+
+## Anel Quociente
+
+Sejam $A$ um anel, $I$ um ideal de $A$ e $a \in A$.
+
+💡  $A/I$ com as operações abaixo é um **ANEL QUOCIENTE** e possui estrutura de anel:
+
+```math
+(a + I) + (b + I) = (a + b) + I
+```
+
+```math
+(a + I) \cdot (b + I) = (a \cdot b) + I
+```
+
+
+<br>
+
+
+## Projeção Canônica
+
+Sejam $A$ um anel e $I$ um ideal de $A$.
+
+💡 A função $\Pi : A \rightarrow A/I$ definida por $\Phi (a) = a + I$ é chamada de **PROJEÇÃO CANÔNICA** e é um homomorfismo de anéis tal que:
+
+- $\text{ker } \phi = I$
+- $\text{Im }  \phi = A/I$
