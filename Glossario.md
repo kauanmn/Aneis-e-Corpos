@@ -250,7 +250,7 @@ Sejam $A,B$ anéis e $\phi : A \rightarrow B$ um homomorfismo de anéis.
 💡 O **KERNEL** de $\phi$ é o conjunto
 
 ```math
-\text{ker } \phi = \{ a \in A \mid \phi (0_{A}) = 0_{B} \}
+\text{ker } \phi = \{ a \in A \mid \phi (a) = 0_{B} \}
 ```
 
 
@@ -320,7 +320,7 @@ então $M$ é um **IDEAL MAXIMAL**.
 
 Seja $R$ um anel comutativo e $I$ um ideal próprio de $R$.
 
-💡 Se $ab \in I, a,b \in R$ implica que $a \in I$ ou $b \in I$, então $I$ é um **IDEAL PRIMO**.
+💡 Se $ab \in I$ e $a,b \in R$ implica que $a \in I$ ou $b \in I$, então $I$ é um **IDEAL PRIMO**.
 
 
 <br>
