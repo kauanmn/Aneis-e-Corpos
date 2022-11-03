@@ -49,6 +49,7 @@ Página com as definições e termos usados na disciplina.
 
 <br>
 
+# PARTE 1 - ANÉIS
 
 ## Anel
 
@@ -166,6 +167,8 @@ Sejam $R$ um anel e $S \subseteq R$
 
 <br>
 
+
+# PARTE 2 - HOMOMORFISMO E IDEAIS
 
 ## Homomorfismo de anéis
 
@@ -315,10 +318,14 @@ então $M$ é um **IDEAL MAXIMAL**.
 
 ## Ideal Primo
 
+Seja $R$ um anel comutativo e $I$ um ideal próprio de $R$.
 
+💡 Se $ab \in I, a,b \in R$ implica que $a \in I$ ou $b \in I$, então $I$ é um **IDEAL PRIMO**.
 
 
 <br>
+
+# PARTE 3 - ANÉIS QUOCIENTES
 
 
 ## Equivalência
