@@ -6,15 +6,6 @@
 
 In Exercises 7 through 13, decide whether the indicated operations of addition and multiplication are defined (closed) on the set, and give a ring structure. If a ring is not formed, tell why this is the case. If a ring is formed, state whether the ring is commutative, whether it has unity, and whether it is a field.
 
-
-
-
-
-
-
-
-
-
 <br>
 
 ### Exercise 11
