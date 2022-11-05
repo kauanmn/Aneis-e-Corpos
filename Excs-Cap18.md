@@ -6,6 +6,15 @@
 
 In Exercises 7 through 13, decide whether the indicated operations of addition and multiplication are defined (closed) on the set, and give a ring structure. If a ring is not formed, tell why this is the case. If a ring is formed, state whether the ring is commutative, whether it has unity, and whether it is a field.
 
+
+
+
+
+
+
+
+
+
 <br>
 
 ### Exercise 11
@@ -76,4 +85,43 @@ $\\{ a + b \sqrt{2} \mid a,b \in \mathbb{Z} \\}$ is a commutative ring with unit
         = b \cdot a
     }
 ```
+</details>
+
+
+
+
+
+
+
+
+
+
+<br>
+
+### Exercise 35
+
+Show that the evaluation map $\phi_{a}$ of Example 18.10 satisfies the multiplicative requiremente for a homomorphism.
+
+<details>
+<summary><strong>Solution</strong></summary>
+    
+Let $F$ be the ring of all functions mapping $\mathbb{R}$ into $\mathbb{R}$ defined in Example 18.4. For each $a \in \mathbb{R}$, we have the <strong>evaluation homomorphism</strong> $\phi_{a} : F \rightarrow \mathbb{R}$, where $\phi_{a}(f) = f(a) \text{ for } f \in F$.
+    
+The multiplicative requirement for homomorphisms are:
+
+```math
+    \phi(ab) = \phi(a)\phi(b)
+```
+
+Let $f,g \in F$.
+
+- $\phi_{a}(f) = f(a)$
+- $\phi_{a}(g) = f(a)$
+
+```math
+    \displaylines{
+        \phi_{a}(fg) = (fg)(a) = f(a)g(a) = \phi_{a}(f)\phi_{a}(g)
+    }
+```
+
 </details>
