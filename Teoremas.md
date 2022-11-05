@@ -6,52 +6,6 @@ Página com resultados importantes, para serem usados em provas etc.
 <br>
 
 
-## Conteúdo
-
-**PARTE 1 - ANEIS**
-
-- Anel
-- Anel Comutativo
-- Identidade
-- Anel com Identidade
-- Elemento Invertível
-- Anel com Divisão
-- Corpo
-- Divisores de Zero
-- Domínio Inteiro
-- Característica
-- Subanel
-
-<br>
-
-**PARTE 2 - HOMOMORFISMO E IDEAIS**
-
-- Homomorfismo de anéis
-- Homomorfismo de anéis com unidade
-- Tipos de Homomorfismos
-- Imagem
-- Kernel
-- Ideal
-- Ideal Gerado
-- Ideais Próprios e Triviais
-- Ideal Maximal
-- Ideal Primo
-
-<br>
-
-**PARTE 3 - ANÉIS QUOCIENTES**
-
-- Equivalência
-- Classe
-- Classes de Equivalência
-- Anel Quociente
-- Projeção Canônica
-
-<br>
-
-
-# PARTE 1 - ANEIS
-
 ### 💡 Proposição
 
 Sejam $R$ um anel e $a,b,c \in R$, então:
@@ -139,8 +93,6 @@ $\forall a,b \in S$
 
 <br>
 
-# PARTE 2 - HOMOMORFISMO DE ANÉIS
-
 ### 💡 Proposição
 
 Se $\phi : A \rightarrow B$ é um homomorfismo de anéis, então:
@@ -164,7 +116,7 @@ Sejam $A$ e $B$ anéis com identidade e $\phi : A \rightarrow B$ um homomorfismo
 
 ### 💡 Proposição
 
-O conjunto de classes de equivalência $A/I$ tem estrutura de anel, chamado de **ANEL QUOCIENTE** de $A$ po $I$
+O conjunto de classes de equivalência $A/I$ tem estrutura de anel, chamado de **ANEL QUOCIENTE** de $A$ por $I$
 
 
 
@@ -185,5 +137,199 @@ Seja $\phi : A \rightarrow B$ um homomorfismo de anéis, então:
 
 Seja $\phi : A \rightarrow B$ um homomorfismo de anéis, então:
 
-1. Se $A_{1}$ é um subanel de $A$, então $\phi (A_{1}) é um subanel de $B$$
-2. 
+1. Se $A_{1}$ é um subanel de $A$, então $\phi (A_{1})$ é um subanel de $B$
+2. Se $B_{1}$ é um subanel de $B$, então $\phi ^ {-1} (B_1)$ é um subanel de $A$
+3. Se $I$ é um ideal de $A$, então $\phi (I)$ é um ideal de $\text{Im } \phi$
+4. Se $I \lhd B$, então $\phi ^ {-1}(I) \lhd A$ E $\text{ker } \phi \subseteq \phi ^ {-1}(I)$
+5. Se $I \lhd A$ e $\text{ker } \phi \subseteq I$, então $\phi^{-1}(\phi(I)) = I$
+
+
+<br>
+
+### ⚠️ 1º TEOREMA DO ISOMORFISMO ⚠️
+
+Seja $\phi : A \rightarrow B$ um homomorfismo de anéis, então
+
+```math
+\displaylines{
+    \phi^{*} : A/\text{ker } \phi \rightarrow \text{Im } \phi \\
+    a + \text{ker } \phi \mapsto \phi(a)
+}
+```
+
+é um isomorfismo de anéis, i.e.,
+
+```math
+    A / \text{ker } \phi \cong \text{Im } \phi
+```
+
+
+<br>
+
+### Corolário
+
+Se $\phi : A \rightarrow B$ é um epimorfismo de anéis, então $A / \text{ker } \phi \cong B$
+
+
+<br>
+
+### Corolário
+
+Seja $\phi : A \rightarrow B$ um epimorfismo de anéis. Então
+
+```math
+    A/\phi^{-1}(J) \cong B/J
+```
+
+
+
+<br>
+
+### Corolário
+
+Sejam $A$ um anel e $I,J \lhd A$ tais que $I \subseteq J$. Então
+
+```math
+A/J \cong (A/I) / (J/I)
+```
+
+
+
+<br>
+
+
+### ⚠️ TEOREMA DA CORRESPONDÊNCIA ⚠️
+
+Seja $\phi : A \rightarrow B$ um epimorfismo de anéis.
+
+Então, existe uma correspondência bijetora entre os ideais de $A$ e $B$ que contêm $\text{ker } \phi$.
+
+
+
+<br>
+
+### Corolário
+
+Sejam $A$ um anel e $I \lhd A$.
+
+Então existe uma correspondência bijetora entre os ideaiss de $A/I$ e os ideais de $A$ que contém $I$
+
+
+
+<br>
+
+
+### ⚠️ 2º TEOREMA DO ISOMORFISMO ⚠️
+
+Sejam $A$ um anel, $S$ um subanel de $A$ e $I \lhd A$. Então:
+
+1. $(S \cap I) \lhd A$
+2. $S+I = \\{ s + a \mid s \in S \land a \in I \\}$ é um subanel de $A$, que contém $I$ e $I \lhd (s + I)$
+3. $S/S \cap I \cong (S+I)/I$
+
+
+
+<br>
+
+### ⚠️ TEOREMA ⚠️
+
+Seja $R$ um anel comutativo com unidade.
+
+Então $I$ é um ideal maximal de $R \iff R/I$ é um corpo.
+
+
+
+<br>
+
+### Corolário
+
+Seja $R$ um anel comutativo com unidade é um corpo $\iff$ os únicos ideais de $R$ são $\\{ 0 \\}$ e $R$ (não há ideais próprios não nulos)
+
+
+
+<br>
+
+### ⚠️ TEOREMA ⚠️
+
+Sejam $R$ um anel comutativo com $1$ e $I$ um ideal próprio de $R$. Então,
+
+```math
+    I \text { primo} \iff R/I \text{ domínio de integridade}
+```
+
+
+
+<br>
+
+### Corolário
+
+Seja $R$ um anel comutativo com 1. Então,
+
+Todo ideal maximal é um ideal primo.
+
+
+
+<br>
+
+### 💡 Proposição
+
+Se $F$ é um corpo, então:
+
+1. Se $\text{Char }(F) = p, p \text{ primo}$, então $F$ contém um subcorpo isomorfo a $\mathbb{Z}_p$
+2. Se $\text{Char }(F) = 0$, então $F$ contém um subcorpo isomorfo a $\mathbb{Q}$ (racionais)
+
+
+
+<br>
+
+### Lema
+
+A função
+
+```math
+\displaylines{
+    i:D \rightarrow F \\
+    a \mapsto [(a,1)]
+}
+```
+
+é um monomorfismo de anéis. Portanto, $D \cong i(D) \subseteq F$
+
+
+
+<br>
+
+### ⚠️ TEOREMA ⚠️
+
+Todo domínio inteiro $D$ pode ser "mergulhado" em um corpo $F$ tal que todo elemento de $F$ pode ser escrito como um quociente de elementos de $D$ (tal corpo é chamado de **CORPO DE QUOCIENTES** de $D$)
+
+
+
+<br>
+
+### ⚠️ TEOREMA ⚠️
+
+Sejam $D$ um domínio de integridade, $F$ um corpo de frações de $D$ e $L$ um corpo tal que $D \subseteq L$.
+
+Então, existe um monomorfismo $\psi : F \rightarrow L$ tal que
+
+```math
+\displaylines{
+    \psi(a)=a, \forall a \in D \\
+    (\psi/D = \text{ id}_{D})
+}
+```
+
+Além disso, $\psi(F)$ é isomorfo a um subcorpo de $F$
+
+
+
+<br>
+
+### Corolário
+
+Sejam $D$ um domínio de integridade e $F_1, F_2$ corpos de frações de $D$. Então,
+
+```math
+F_1 \cong F_2
+```
