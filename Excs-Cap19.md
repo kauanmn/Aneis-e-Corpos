@@ -125,7 +125,7 @@ $\text{char}(\mathbb{Z}_3 \times \mathbb{Z}_4) = 12$
 
 ### Exercise 10
 
-$\mathbb{Z}_6 \times \mathbb{Z}_{15}$
+$\mathbb{Z} _{6} \times \mathbb{Z} _{15}$
 
 <details>
 <summary><strong>Solution</strong></summary>
