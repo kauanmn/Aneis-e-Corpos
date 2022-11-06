@@ -46,6 +46,7 @@ Página com as definições e termos usados na disciplina.
 - [Classes de Equivalência](#classes-de-equivalência)
 - [Anel Quociente](#anel-quociente)
 - [Projeção Canônica](#projeção-canônica)
+- [Corpo de Quocientes](#corpo-de-quocientes)
 
 <br>
 
@@ -409,3 +410,14 @@ Sejam $A$ um anel e $I$ um ideal de $A$.
 
 - $\text{ker } \phi = I$
 - $\text{Im }  \phi = A/I$
+
+
+
+<br>
+
+
+## Corpo de Quocientes
+
+Seja um domínio inteiro $D$ e um corpo $F$.
+
+💡 Se todo domínio inteiro $D$ pode ser "mergulhado" em um corpo $F$ tal que todo elemento de $F$ possa ser expressado como um quociente de dois elementos de $D$, então $F$ é um **CORPO DE QUOCIENTES** de $D$ (ou corpo de frações).
