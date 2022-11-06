@@ -421,3 +421,12 @@ Sejam $A$ um anel e $I$ um ideal de $A$.
 Seja um domínio inteiro $D$ e um corpo $F$.
 
 💡 Se todo domínio inteiro $D$ pode ser "mergulhado" em um corpo $F$ tal que todo elemento de $F$ possa ser expressado como um quociente de dois elementos de $D$, então $F$ é um **CORPO DE QUOCIENTES** de $D$ (ou corpo de frações).
+
+Para $[(a,b)], [(c,d)] \in F$, as equações
+
+```math
+\displaylines{
+    [(a,b)] + [(c,d)] = [(ad+bc, bd)]\\
+    [(a,b)] \cdot [(c,d)] = [(ac,bd)]
+}
+```
