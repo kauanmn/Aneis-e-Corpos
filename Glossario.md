@@ -426,7 +426,9 @@ Para $[(a,b)], [(c,d)] \in F$, as equações
 
 ```math
 \displaylines{
-    [(a,b)] + [(c,d)] = [(ad+bc, bd)]\\
+    [(a,b)] + [(c,d)] = [(ad+bc, bd)] \text{ e }\\
     [(a,b)] \cdot [(c,d)] = [(ac,bd)]
 }
 ```
+
+dão as operações bem-definidas de adição e multiplicação em $F$.
