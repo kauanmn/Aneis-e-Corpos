@@ -7,8 +7,6 @@
 
 In Exercises 5 through 10, find the characteristic of the given ring.
 
-<br>
-
 ### Exercise 5
 
 $2\mathbb{Z}$
@@ -151,7 +149,7 @@ $\text{char}(\mathbb{Z}_6 \times \mathbb{Z}_{15}) = 30$
 Let $R$ be a commutative ring with unity of characteristic 3. Compute and simplify $(a+b)^9$ for $a,b \in R$
 
 <details>
-<summary><strong>Solution</strong></summary>
+<summary><strong>Solution</strong></summary><br>
 
 ```math
     \displaylines{
@@ -160,5 +158,41 @@ Let $R$ be a commutative ring with unity of characteristic 3. Compute and simpli
         = a^9 + b^9
     }
 ```
+</details>
+
+
+
+
+
+
+
+
+
+
+<br>
+
+### Exercise 28
+
+Show that if $D$ is an integral domain, then $\\{ n \cdot 1 \mid n \in \mathbb{Z} \\}$ is a subdomain of $D$ contained in every subdomain of $D$.
+
+<details>
+<summary><strong>Solution</strong></summary><br>
+
+Let $R = \\{ n \cdot 1 \mid n \in \mathbb{Z} \\}$
+
+- Addition closure: $(n \cdot 1) + (m \cdot 1) = n \cdot 1 + m \cdot 1 = (n + m) \cdot 1 \in R$
+- Addition neutral element: let $n = 0$, then we have $(n \cdot 1) + (0 \cdot 1) = (n + 0) \cdot 1 = n \cdot 1$
+- Additive inverse: the inverse of $n \cdot 1$ is $-n \cdot 1$: $(n \cdot 1) + (-n \cdot 1) = (n - n) \cdot 1 = 0 \cdot 1 = 0$
+    
+This shows that $R$ is an abelian group with the operation $+$
+    
+- Multiplicative closure: with distributive laws, we have $(n \cdot 1)(m \cdot 1) = (nm) \cdot 1 \in R$
+- Multiplicative identity: because $1 \cdot 1 = 1$, then $1 \in R$
+
+Thus $R$ is a commutative ring with unity.
+
+- Does $R$ have zero divisors? because a product $ab=0$ in $R$ can also be viewed as a product in $D$, we see that $R$ also has no divisors of zero.
+
+Thus, $R$ is a subdomain of $D$
 
 </details>
