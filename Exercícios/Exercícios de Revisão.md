@@ -69,3 +69,36 @@ Logo,
 ```
 
 </details>
+
+
+
+
+
+
+
+
+
+
+<br>
+
+### Exercício 3
+
+Prove que $2\mathbb{Z}$ e $3\mathbb{Z}$ não são isomorfos.
+
+<details>
+<summary><strong>Solução</strong></summary><br>
+
+Suponha que exista um isomorfismo $f:2\mathbb{Z} \rightarrow 3\mathbb{Z}$
+
+Assim, $f(2) = 3a$ para algum $a \in \mathbb{Z}$.
+
+Então, calculamos $f(4)$ de duas formas diferentes:
+
+1. $f(4) = f(2) + f(2) = 3a + 3a = 6a$
+2. $f(4) = f(2) \cdot f(2) = 3a \cdot 3a = 9a^2$
+
+Logo, $6a = 9a^2$, cuja única solução é $a = 0$.
+
+Porém, $f(0) = 0 = f(2)$, o que contradiz com o fato de $f$ ser uma função injetora. Portanto, $2\mathbb{Z}$ e $3\mathbb{Z}$ não são isomorfos.
+
+</details>
