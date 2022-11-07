@@ -14,7 +14,13 @@ Find all prime ideals and all maximal ideals of $\mathbb{Z}_{6}$
 
 Because a finite integral domain is a field, the prime and the maximal ideals are the same.
 
-The ideals $\\{ 0,2,4 \\}$ and $\\{ 0,3 \\}$ are both prime and maximal because the factor rings are isomorphic to the fields $\mathbb{Z}_{2}$ and $\mathbb{Z}_{3}$ respectively.
+The ideals $\\{ 0,2,4 \\}$ and $\\{ 0,3 \\}$ are both prime and maximal because the factor rings are isomorphic to the fields
+
+```math
+\mathbb{Z}_{2} \text{ and } \mathbb{Z}_{3}
+```
+
+respectively.
 
 </details>
 
@@ -38,7 +44,13 @@ Find all prime ideals and all maximal ideals of $\mathbb{Z}_{12}$.
 
 Because a finite integral domain is a field, the prime and the maximal ideals are the same.
 
-The ideals $\\{ 0,2,4,6,8,10 \\}$ and $\\{ 0,3,6,9 \\}$ are both prime and maximal because the factor rings are isomorphic to the fields $\mathbb{Z}_{2}$ and $\mathbb{Z}_{3}$ respectively.
+The ideals $\\{ 0,2,4,6,8,10 \\}$ and $\\{ 0,3,6,9 \\}$ are both prime and maximal because the factor rings are isomorphic to the fields
+
+```math
+\mathbb{Z}_{2} \text{ and } \mathbb{Z}_{3}
+```
+
+respectively.
 
 </details>
 
