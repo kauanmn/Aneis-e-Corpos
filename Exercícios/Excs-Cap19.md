@@ -295,3 +295,34 @@ Thus $R$ is a commutative ring with unity.
 Thus, $R$ is a subdomain of $D$
 
 </details>
+
+
+
+
+
+
+
+
+
+
+<br>
+
+### Exercise 29
+
+Show that the characteristic of an integral domain $D$ must be either 0 or a prime $p$.
+
+[Hint: if the characteristic of $D$ is $mn$, consider $(m \cdot 1)(n \cdot 1)$ in $D$]
+
+<details>
+<summary><strong>Solution</strong></summary><br>
+
+Suppose the characteristic is $mn, m>1, n>1$. Using the hint, we have $(m \cdot 1)(n \cdot 1) = (mn) \cdot 1 = 0$ (because the characteristic is $mn$).
+
+Because we are considering an integral domain, either $m \cdot 1 = 0$ or $n \cdot 1 = 0$. But,
+
+- if $m \cdot 1 = 0$, then the characteristic is, at most, $m$
+- if $n \cdot 1 = 0$, then the characteristic is, at most, $n$
+
+Thus, the characteristic cannot be a composite positive integer $mn$. It must be either 0 or a prime.
+
+</details>
