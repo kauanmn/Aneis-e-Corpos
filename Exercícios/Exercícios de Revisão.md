@@ -14,9 +14,9 @@ Se $a,b \neq 0$, então
 ```math
 
 \begin{aligned}
-    ab &= c
-    (ab)a &= ca
-    a(ba) &= ca
+    ab &= c\\
+    (ab)a &= ca\\
+    a(ba) &= ca\\
     ba &= c
 \end{aligned}
 
@@ -48,7 +48,7 @@ $R$ é um anel tal que $\forall a,b \in R, a^2 - b^2 = (a+b)(a-b) \iff R$ é com
 
 \begin{aligned}
 
-    (a+b)(a-b) &= a(a-b) + b(a-b)
+    (a+b)(a-b) &= a(a-b) + b(a-b)\\
     &= a^2 - ab + ba - b^2
 
 \end{aligned}
@@ -61,7 +61,7 @@ Logo,
 
 \begin{aligned}
 
-    (a+b)(a-b) = a^2 - b^2 &\iff (-ab + ba) = 0
+    (a+b)(a-b) = a^2 - b^2 &\iff (-ab + ba) = 0\\
     &\iff ab =ba
 
 \end{aligned}
