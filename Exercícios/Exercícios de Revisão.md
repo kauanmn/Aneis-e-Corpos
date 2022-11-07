@@ -237,3 +237,50 @@ Em $M_{3}(\mathbb{R})$, consideremos a solução da equação $X^2 = I_{3 \times
 Esta afirmação é falsa porque toda matriz elementar é invertível. Logo, não necessariamente $X = I_{3 \times 3}$ ou $X = -I_{3 \times 3}$.
 
 </details>
+
+
+
+
+
+
+
+
+
+
+<br>
+
+### Exercício 8
+
+Encontrar os anéis da forma $\mathbb{Z}_{m}/I$, onde $m > 1$
+
+<details>
+<summary><strong>Solução</strong></summary><br>
+
+O primeiro passo é observar que $\mathbb{Z}_m = \mathbb{Z}/m\mathbb{Z}$. Lembremos também que $\langle m \rangle = m\mathbb{Z} = \\{mt \mid t \in \mathbb{Z} \\}$
+
+Se usarmos o epimorfismo $\pi : \mathbb{Z} \rightarrow \mathbb{Z}/m\mathbb{Z}$ tal que $\pi(l) = l + m\mathbb{Z}$, podemos utilizar o Teorema de Correspondência.
+
+Com o Teorema da Correspondência, os ideais de $\mathbb{Z}/m\mathbb{Z}$ são da forma $J/m\mathbb{Z}$, onde $J$ é um ideal que contem $m\mathbb{Z}$.
+
+Ou seja, os ideais são da forma $I = \langle n \rangle / \langle m \rangle, \langle n \rangle \subseteq \langle m \rangle$. Esta última inclusão implica que $n$ divide $m$.
+
+Usando os corolários do Teorema de Isomorfismo, temos que os anéis quocientes de $\mathbb{Z}_m$ são da forma:
+
+```math
+\mathbb{Z}_m / I = \frac{(\mathbb{Z}/\langle m \rangle)}{\langle n \rangle / \langle m \rangle} \cong \mathbb{Z}/\langle n \rangle = \mathbb{Z}_n
+```
+
+Exemplo: $m=6$. Como os divisores de 6 são 1, 2, 3, 6, os ideais de $\mathbb{Z}_{6}$ são:
+
+- $\langle 1 \rangle / \langle 6 \rangle = \mathbb{Z}/\langle 6 \rangle = \mathbb{Z}_6$
+- $\langle 2 \rangle / \langle 6 \rangle = \\{\overline{0}, \overline{2}, \overline{4} \\} = \langle \overline{2} \rangle$
+- $\langle 3 \rangle / \langle 6 \rangle = \\{\overline{0}, \overline{3} \\} = \langle \overline{3} \rangle$
+- $\langle 6 \rangle / \langle 6 \rangle = \\{\overline{0} \\} = \langle \overline{0} \rangle$
+
+Portanto, os quocientes de $\mathbb{Z}_6$ são:
+
+- $\frac{(\mathbb{Z}/\langle 6 \rangle)}{\langle 2 \rangle / \langle 6 \rangle} \cong \mathbb{Z}_2$
+- $\frac{(\mathbb{Z}/\langle 6 \rangle)}{\langle 3 \rangle / \langle 6 \rangle} \cong \mathbb{Z}_3$
+- $\frac{(\mathbb{Z}/\langle 6 \rangle)}{\langle 6 \rangle / \langle 6 \rangle} \cong \mathbb{Z}_6$
+
+</details>
