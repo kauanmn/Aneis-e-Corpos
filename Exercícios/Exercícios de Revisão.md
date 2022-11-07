@@ -145,3 +145,95 @@ Logo, $\langle x^2 + 1 \rangle$ não é ideal primo de $\mathbb{Z}_{2}[x]$
 
 
 </details>
+
+
+
+
+
+
+
+
+
+
+<br>
+
+### Exercício 5
+
+Prove que $2\mathbb{Z}$ é um ideal maximal de $\mathbb{Z}$
+
+<details>
+<summary><strong>Solução</strong></summary><br>
+
+Como $\mathbb{Z}/2\mathbb{Z} \cong \mathbb{Z}_{2}$ é um corpo, então $2\mathbb{Z}$ é maximal em $\mathbb{Z}$.
+
+$p\mathbb{Z}$ é maximal em $\mathbb{Z}$, se $p$ é primo.
+
+</details>
+
+
+
+
+
+
+
+
+
+
+<br>
+
+### Exercício 6
+
+Os grupos aditivos $\mathbb{Z}$ and $3\mathbb{Z}$ são isomorfos. São isomorfos como anéis?
+
+<details>
+<summary><strong>Solução</strong></summary><br>
+
+Suponha que exista um isomorfismo $\phi : \mathbb{Z} \rightarrow 3\mathbb{Z}$.
+
+Seja $\phi(x) = 3a$ e $\phi(y) = 3b$, com $a,b \in \mathbb{Z}$ Então,
+
+```math
+\begin{aligned}
+    \phi(xy) &= \phi(x)\phi(y)\\
+    &= 3a \cdot 3b\\
+    &= 3 \cdot (3ab)\\
+    &= 3 \phi(xy)
+\end{aligned}
+```
+
+Um absurdo. Logo, não existe tal isomorfismo.
+
+</details>
+
+Prove que $2\mathbb{Z}$ é um ideal maximal de $\mathbb{Z}$
+
+<details>
+<summary><strong>Solução</strong></summary><br>
+
+Como $\mathbb{Z}/2\mathbb{Z} \cong \mathbb{Z}_{2}$ é um corpo, então $2\mathbb{Z}$ é maximal em $\mathbb{Z}$.
+
+$p\mathbb{Z}$ é maximal em $\mathbb{Z}$, se $p$ é primo.
+
+</details>
+
+
+
+
+
+
+
+
+
+
+<br>
+
+### Exercício 7
+
+Em $M_{3}(\mathbb{R})$, consideremos a solução da equação $X^2 = I_{3 \times 3}$. Então $X^2 - I_{3 \times 3} = 0$. Logo $(X - I_{3 \times 3})(X + I_{3 \times 3})$ = 0$. Portanto, $X = I_{3 \times 3}$ ou $X = -I_{3 \times 3}$
+
+<details>
+<summary><strong>Solução</strong></summary><br>
+
+Esta afirmação é falsa porque toda matriz elementar é invertível. Logo, não necessariamente $X = I_{3 \times 3}$ ou $X = -I_{3 \times 3}$.
+
+</details>
