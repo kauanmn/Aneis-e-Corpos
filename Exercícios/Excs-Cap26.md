@@ -42,6 +42,119 @@ All of these are homomorphisms.
 
 <br>
 
+---
+
+In Exercises 5 through 7, correct the definition of the italicized term without reference to the text, if correction is needed, so that it is in a form acceptable for publication.
+
+### Exercise 5
+
+An _isomorphism of a ring_ $R$ with a ring $R'$ is a homomorphism $\phi : R \rightarrow R'$ such that $\text{Ker }(\phi) = \\{ 0 \\}$
+
+<details>
+<summary><strong>Solution</strong></summary><br>
+
+The correct definition is:
+
+$\phi$ maps $R$ onto $R'$.
+
+An **ISOMORPHISM** of a ring $R$ with a ring $R'$ is a homomorphism $\phi : R \rightarrow R'$ mapping $R$ onto $R'$ such that $\text{Ker }(\phi) = \\{ 0 \\}$
+
+</details>
+
+
+
+
+
+
+
+
+
+
+<br>
+
+### Exercise 6
+
+An _ideal_ $N$ of a ring $R$ is an additive subgroup of $\langle R, + \rangle$ such that $\forall r \in R$ and $\forall n \in N$, we have $rn \in N$ and $nr \in N$.
+
+<details>
+<summary><strong>Solution</strong></summary><br>
+
+The definition is correct.
+
+</details>
+
+
+
+
+
+
+
+
+
+
+<br>
+
+### Exercise 7
+
+The _kernel of a homomorphism_ $\phi$ mapping a ring $R$ into a ring $R'$ is $\\{\phi(r)=0 \mid r \in R \\}$
+
+<details>
+<summary><strong>Solution</strong></summary><br>
+
+The definition is incorrect. The kernel is $\text{Ker }(\phi) = \\{ r \in R \mid \phi(r) = 0'\\}$
+
+</details>
+
+---
+
+
+
+
+
+
+
+
+
+
+<br>
+
+### Exercise 10
+
+Mark each of the following true or false.
+
+a. The concept of a ring homomorphism is closely connected with the idea of a factor ring.<br>
+b. A ring homomorphism $\phi : R \rightarrow R'$ carries ideals of $R$ into ideals of $R'$.<br>
+c. A ring homomorphism is one to one if and only if the kernel is $\\{ 0 \\}$.<br>
+d. $\mathbb{Q}$ is an ideal in $\mathbb{R}$.<br>
+e. Every ideal in a ring is a subring of the ring.<br>
+f. Every subring of every ring is an ideal of the ring.<br>
+g. Every quotient ring of every commutative ring is again a commutative ring.<br>
+h. The rings $\mathbb{Z}/4\mathbb{Z}$ and $\mathbb{Z}_4$ are isomorphic.<br>
+i. An ideal $N$ in a ring $R$ with unity 1 is all of $R$ if and only if $1 \in N$.<br>
+j. The concept of an ideal is to the concept of a ring as the concept of a normal subgroup is to the concept of a group.
+
+<details>
+<summary><strong>Solution</strong></summary><br>
+
+T F T F T F T T T T
+
+b. A ring homomorphism $\phi : R \rightarrow R'$ DOES NOT carries ideals of $R$ into ideals of $R'$.<br>
+d. $\mathbb{Q}$ is NOT an ideal in $\mathbb{R}$.<br>
+f. NOT every subring of every ring is an ideal of the ring.<br>
+
+</details>
+
+
+
+
+
+
+
+
+
+
+<br>
+
 ### Exercise 12
 
 Give an example to show that a factor ring of an integral domain may be a field.
