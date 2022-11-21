@@ -579,104 +579,40 @@ Sejam $F$ um corpo e $f(x) \in F[x], f(x) \neq 0$.
 
 💡 Dizemos que $\alpha \in F$ é **RAIZ DE** $f(x)$ **COM MULTIPLICIDADE** $k \in \mathbb{N} \setminus \\{ 0 \\}$ se $(x - \alpha)^k$ divide $f(x)$ em $F[x]$ e $(x - \alpha)^{k + r}$ não divide $f(x)$ em $F[x]$.
 
+<br>
 
+Equivalentemente, $f(x) = (x - \alpha)^{k}q(x), q(x) \in F[x]$ e $(x-\alpha)$ não divide $q(x)$ (ou $q(\alpha) \neq 0$)
 
 
 
 
 
+<br>
 
+## Domínio de Ideais Principais
 
+Seja $R$ um domínio de integridade.
 
+💡 Dizemos que $R$ é um **DOMÍNIO DE IDEAIS PRINCIPAIS** se cada ideal $I$ de $R$ é da forma:
 
+```math
+I = \langle a \rangle = \{ a \cdot r : r \in \mathbb{R} \}
+```
 
+para algum $a \in R$.
 
 
 
 
 
+<br>
 
+## Polinômio Irredutível
 
+Sejam $F$ um corpo e $f(x) \in F[x], f(x)$ um polinômio não constante.
 
+💡 Dizemos que $f$ é **REDUTÍVEL** em $F$ se existem $f_1(x), f_2(x) \in F[x]$ tais que $f(x) = f_1(x) \cdot f_2(x)$
 
+Com $\text{deg}(f_1) < \text{deg}(f)$ e $\text{deg}(f_2) < \text{deg}(f)$.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Caso contrário, dizemos que $f(x)$ é **IRREDUTÍVEL** em $F$.
