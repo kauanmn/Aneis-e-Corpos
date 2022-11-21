@@ -50,6 +50,22 @@ Página com as definições e termos usados na disciplina.
 
 <br>
 
+**PARTE 4 - ANÉIS DE POLINÔMIOS**
+
+- [Polinômio](#polinômio)
+- [Grau](#grau)
+- [Polinômio Nulo](#polinômio-nulo)
+- [Polinômio Constante](#polinômio-constante)
+- [Operações entre Polinômios](#operações-entre-polinômios)
+- [Homomorfismo Avaliação](#homomorfismo-avaliação)
+- [Imagem Homomorfa](#imagem-homomorfa)
+- [Fator](#fator)
+- [Raiz com Multiplicidade](#raiz-com-multiplicidade)
+- [Domínio de Ideais Principais](#domínio-de-ideais-principais)
+- [Polinômio Irredutível](#polinômio-irredutível)
+
+<br>
+
 # PARTE 1 - ANÉIS
 
 ## Anel
@@ -432,3 +448,235 @@ Para $[(a,b)], [(c,d)] \in F$, as equações
 ```
 
 dão as operações bem-definidas de adição e multiplicação em $F$.
+
+
+<br>
+
+# PARTE 4 - ANÉIS QUOCIENTES
+
+
+## Polinômio
+
+Seja $R$ um anel.
+
+💡 Um **POLINÔMIO** $p(x)$ na variável $x$ e com coeficientes em $R$ é uma soma formal da forma
+
+```math
+    p = \sum^{\infty}_{i=0} a_{i}x^{i} = a_0 + a_1x + \cdots + a_nx^n + \cdots
+```
+
+onde $a_i = 0$, exceto para uma quantidade finita de índices $i$.
+
+💡 $a_i \in R$ são chamados de **COEFICIENTES**.
+
+
+
+
+<br>
+
+## Grau
+
+💡 O **GRAU** de $p$, denotado por $\text{deg}(p)$, é o maior $i \in \mathbb{N}$ tal que $a_i \neq 0$.
+
+Se $a_i = 0, \forall i \in \mathbb{N}$, dizemos que o grau não está definido.
+
+<br>
+
+Se $deg(p) = n$, então $p = a_{n}x^{n} + \cdots + a_{1}x + a_0, a_n \neq 0$
+
+💡 Neste caso, dizemos que $a_n$ é o **COEFICIENTE PRINCIPAL** de $p$ e que $a_0$ é o **TERMO INDEPENDENTE** (ou **CONSTANTE**).
+
+
+
+
+<br>
+
+## Polinômio Nulo
+
+💡 Se $p = \sum a_{i}x^{i}, a_i = 0$, chamamos $p$ de **POLINÔMIO NULO**.
+
+
+
+
+<br>
+
+## Polinômio Constante
+
+💡 Se $a \in R$, então $a \in R[x]$ é chamado de **POLINÔMIO CONSTANTE**.
+
+Se $a \neq 0$, então $\text{deg}(a) = 0$.
+
+
+
+
+<br>
+
+## Operações entre Polinômios
+
+❗❗ Definimos, para $p, q \in R[x]$, as seguintes operações:
+
+### Adição
+
+```math
+p(x) + q(x) = \sum^{\infty}_{i=0} c_{i}x^{i}, \text{ onde } c_i = a_i + b_i
+```
+
+<br>
+
+### Produto
+
+```math
+p(x) \cdot q(x) = \sum^{\infty}_{i=0} d_{i}x^{i}, \text{ onde } d_n = \sum^{n}_{i=0} a_{i}b_{n-1}
+```
+
+
+
+
+<br>
+
+## Homomorfismo Avaliação
+
+Sejam $E, F$ dois corpos tais que $E$ é um subcorpo de $F (E \subseteq F)$ e $\alpha \in F$.
+
+💡 Definimos o **HOMOMORFISMO AVALIAÇÃO** $\phi_{\alpha} : E[x] \rightarrow F$ de tal forma que, se $p \in E[x]$, então:
+
+```math
+\phi_{\alpha}(p(x)) = a_{n}\alpha^{n} + \cdots + a_{1}\alpha + a_{0} \in F, a_i \in E
+```
+
+
+
+
+<br>
+
+## Imagem Homomorfa
+
+Sejam $R_1, R_2$ anéis.
+
+💡 Então, dizemos que $R_2$ é **IMAGEM HOMOMORFA** de $R_1$ se existe epimorfismo $\phi : R_1 \rightarrow R_2$.
+
+
+
+
+
+<br>
+
+## Fator
+
+Sejam $F$ um corpo e $f(x), t(x) \in F[x]$.
+
+💡 Se $q(x) \in F[x]$ tal que $f(x) = t(x) \cdot q(x)$, então $t(x)$ é um **FATOR** de $f(x)$ em $F[x]$.
+
+
+
+
+
+<br>
+
+## Raiz com multiplicidade
+
+Sejam $F$ um corpo e $f(x) \in F[x], f(x) \neq 0$.
+
+💡 Dizemos que $\alpha \in F$ é **RAIZ DE** $f(x)$ **COM MULTIPLICIDADE** $k \in \mathbb{N} \setminus \\{ 0 \\}$ se $(x - \alpha)^k$ divide $f(x)$ em $F[x]$ e $(x - \alpha)^{k + r}$ não divide $f(x)$ em $F[x]$.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
