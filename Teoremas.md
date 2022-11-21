@@ -333,3 +333,87 @@ Sejam $D$ um domínio de integridade e $F_1, F_2$ corpos de frações de $D$. En
 ```math
 F_1 \cong F_2
 ```
+
+
+
+
+<br>
+
+# Anéis de Polinômios
+
+<br>
+
+### ⚠️ TEOREMA ⚠️
+
+- Se $R$ é um anel, então $R[x]$ é um anel
+- Se $R$ é comutativo, então $R[x]$ é comutativo
+- Se $R$ tem 1, então $R[x]$ tem unidade
+
+
+
+<br>
+
+### 💡 Proposição
+
+Se $D$ é um domínio de integridade, então $D[x]$ é um domínio de integridade.
+
+
+
+<br>
+
+### ⚠️ **ALGORITMO DA DIVISÃO EM** $F[x]$ ⚠️
+
+
+
+Sejam $F$ um corpo, $f(x),g(x) \in F[x]$ tais que $g(x) \neq 0$.
+
+Então existem únicos $q(x),r(x)$ tais que:
+
+```math
+f(x) = q(x) \cdot g(x) + r(x)
+```
+
+onde $r(x) = 0$ ou $\text{deg}(r) < \text{deg}(g)$
+
+
+
+<br>
+
+### ⚠️ TEOREMA DO FATOR ⚠️
+
+Sejam $F$ um corpo e $\alpha \in F$. Então $\alpha$ é uma raiz de $f(x) \in F[x]$ se, e somente se, $(x-\alpha)$ é um fator de $f(x)$ em $F[x]$.
+
+```math
+\displaylines{
+    \phi_{\alpha} : F[x] \rightarrow F \\
+    \alpha \text{ raiz de } f \Leftrightarrow \phi_{\alpha}(f) = 0
+}
+```
+
+
+
+<br>
+
+### ⚠️ TEOREMA DO RESTO ⚠️
+
+Sejam $F$ um corpo, $\alpha \in F$ e $f(x) \in F[x], f(x) \neq 0$.
+
+Então, o resto da divisão $f(x)$ por $(x-\alpha)$ é $f(\alpha)$.
+
+
+
+<br>
+
+### Corolário
+
+Sejam $F$ um corpo, $\alpha \in F$ e $f(x) \in F[x], f(x) \neq 0$.
+
+Se $\text{deg}(f) = n$, então $f(x)$ tem, no máximo, $n$ raízes em $F$ (contando as multiplicidades).
+
+
+
+<br>
+
+### ⚠️ TEOREMA ⚠️
+
+Se $F$ é um corpo, então $F[x]$ é um domínio de ideais principais.
