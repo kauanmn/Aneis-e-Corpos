@@ -60,6 +60,7 @@ Página com as definições e termos usados na disciplina.
 - [Homomorfismo Avaliação](#homomorfismo-avaliação)
 - [Imagem Homomorfa](#imagem-homomorfa)
 - [Fator](#fator)
+- [Raiz](#raiz)
 - [Raiz com Multiplicidade](#raiz-com-multiplicidade)
 - [Domínio de Ideais Principais](#domínio-de-ideais-principais)
 - [Polinômio Irredutível](#polinômio-irredutível)
@@ -508,9 +509,9 @@ Se $deg(p) = n$, então $p = a_{n}x^{n} + \cdots + a_{1}x + a_0, a_n \neq 0$
 
 ## Polinômio Constante
 
-💡 Se $a \in R$, então $a \in R[x]$ é chamado de **POLINÔMIO CONSTANTE**.
+Seja $a \in R$.
 
-Se $a \neq 0$, então $\text{deg}(a) = 0$.
+💡 Se $a \in R[x], a \neq 0$ e $\text{deg}(a) = 0$, então $a$ é chamado de **POLINÔMIO CONSTANTE**.
 
 
 
@@ -532,7 +533,7 @@ p(x) + q(x) = \sum^{\infty}_{i=0} c_{i}x^{i}, \text{ onde } c_i = a_i + b_i
 ### Produto
 
 ```math
-p(x) \cdot q(x) = \sum^{\infty}_{i=0} d_{i}x^{i}, \text{ onde } d_n = \sum^{n}_{i=0} a_{i}b_{n-1}
+p(x) \cdot q(x) = \sum^{\infty}_{i=0} d_{i}x^{i}, \text{ onde } d_n = \sum^{n}_{i=0} a_{i}b_{n-i}
 ```
 
 
@@ -579,6 +580,18 @@ Sejam $F$ um corpo e $f(x), t(x) \in F[x]$.
 
 <br>
 
+## Raiz
+
+Sejam $R$ um anel comunitativo com unidade e $f \in R[x]$ um polinômio sobre $R$.
+
+💡 A **RAIZ** (ou ZERO) de um polinômio é um elemento $x \in R$ tal que $f(x) = 0$.
+
+
+
+
+
+<br>
+
 ## Raiz com multiplicidade
 
 Sejam $F$ um corpo e $f(x) \in F[x], f(x) \neq 0$.
@@ -602,7 +615,7 @@ Seja $R$ um domínio de integridade.
 💡 Dizemos que $R$ é um **DOMÍNIO DE IDEAIS PRINCIPAIS** se cada ideal $I$ de $R$ é da forma:
 
 ```math
-I = \langle a \rangle = \{ a \cdot r : r \in \mathbb{R} \}
+I = \langle a \rangle = \{ a \cdot r : r \in R \}
 ```
 
 para algum $a \in R$.
@@ -645,7 +658,7 @@ Seja $f(x) = a_{n}x^n + \cdots + a_{1}x + a_0 \in \mathbb{Z}[x], f(x) \neq 0$.
 
 Seja $f(x) = a_{n}x^n + \cdots + a_{1}x + a_0 \in \mathbb{Z}[x], f(x) \neq 0$.
 
-💡 Se o conteúdo de $f$ for $0$, então $f$ é **PRIMITIVO**
+💡 Se o conteúdo de $f$ for $1$, então $f$ é **PRIMITIVO**
 
 
 
