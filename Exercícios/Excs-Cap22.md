@@ -300,6 +300,25 @@ $f(x)g(x)$ where $f(x) = x^3 + 2x^2 + 5$ and $g(x) = 3x^2 + 2x$ in $\mathbb{Z}_7
 
 
 <br>
+
+### Exercise 16
+
+Let $\phi_a : \mathbb{Z}_5[x] \rightarrow \mathbb{Z}_5$ be an evaluation homomorphism as in Theorem 22.4. Use Fermat's theorem to evaluate $\phi_3(x^{231} + 3x^{117} - 2x^{53} + 1)$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
 <br>
 
 # Solutions
@@ -484,11 +503,27 @@ Zeroes: $\\{ 0, 2, 4 \\}$
 
 ## Exercise 16
 
+```math
+\phi_3(x^{231} + 3x^{117} - 2x^{53} + 1) = 3^{231} + 3*3^{117} - 2*3^{53} + 1 = 1
+```
+
 ---
 
 <br>
 
 ## Exercise 17
+
+Let $f(x) = 2x^{219} + 3x^{74} + 2x^{57} + 3x^{44}$.
+
+| $x$ | $f(x)$ |
+|-----|--------|
+| 0   | 0      |
+| 1   | 0      |
+| 2   | 0      |
+| 3   | 0      |
+| 4   | 2      |
+
+Zeroes: $\\{ 0,1,2,3 \\}$
 
 ---
 
@@ -496,11 +531,31 @@ Zeroes: $\\{ 0, 2, 4 \\}$
 
 ## Exercise 18
 
+The definition is incorrect because it is an infinite formal sum, except for a finite number of non-zero $a_i$.
+
+**Correct definition:**
+
+A **POLYNOMIAL WITH COEFFICIENTS IN A RING** $R$ is an infinite formal sum
+
+```math
+\sum^{\infty}_{i = 1} a_{i}x^{i} = a_0 + a_{1}x + \cdots + a_{n}x^{n} + \cdots
+```
+
+where $a_i \in R$ for $i = 0,1,2,\cdots$ and all but a finite number of the $a_i$ are 0.
+
 ---
 
 <br>
 
 ## Exercise 19
+
+The definition is incorrect because the zero $\alpha$ may be in a field $F \supset E$ $(E$ contains $F)$.
+
+**Correct definition:**
+
+Let $F$ be a subfield of a field $E$ and let $f(x) \in F[x]$.
+
+A **ZERO** of $f(x)$ in $E$ is an $\alpha \in E$ such that $\phi_{\alpha}(f(x)) = 0$, where $\phi_{\alpha} : F[x] \rightarrow E$ is the evaluation homomorphism mapping $x$ into $\alpha$
 
 ---
 
@@ -520,11 +575,26 @@ Zeroes: $\\{ 0, 2, 4 \\}$
 
 ## Exercise 22
 
+$f(x) = 2x + 1$ is a unit because $(2x + 1)^2 = 4x^2 + 4x + 1^2 = 1$ in $\mathbb{Z}_4$
+
 ---
 
 <br>
 
 ## Exercise 23
+
+```
+a. T
+b. T
+c. T
+d. T
+e. F
+f. F
+g. T
+h. T
+i. T
+j. F
+```
 
 ---
 
@@ -532,11 +602,23 @@ Zeroes: $\\{ 0, 2, 4 \\}$
 
 ## Exercise 24
 
+Let $D$ be an integral domain
+Let $f(x) = a_{n}x^n + \cdots + a_{1}x + a_{0} \in D[x], a_n \neq 0$
+Let $g(x) = b_{m}x^m + \cdots + b_{1}x + b_{0} \in D[x], b_m \neq 0$
+
+Because $D$ is an integral domain, $a_{n}b_{m} \neq 0$, so $f(x)g(x) \neq 0$, because its term of highest degree has coefficient $a_{n}b_{m}$ Q.E.D.
+
 ---
 
 <br>
 
 ## Exercise 25
+
+`a.` The units in $D[x]$ are the units in $D$ because a polynomial of degree $n$ times a polynomial of degree $m$ is a polynomial of degree $n \cdot m$. Thus a polynomial of degree 1 cannot be multiplied by anything in $D[x]$ to give 1, which is a polynomial of degree 0.
+
+`b.` They are the units in $\mathbb{Z}$, namely $1, -1$.
+
+`c.` They are the units in $\mathbb{Z}_7$, namely $\\{ 1,2,3,4,5,6 \\}$
 
 ---
 
