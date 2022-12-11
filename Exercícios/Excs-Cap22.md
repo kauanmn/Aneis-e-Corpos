@@ -120,6 +120,109 @@ How many polynomials are there of degree $\le 2$ in $\mathbb{Z}_5[x]$? (include 
 
 
 <br>
+
+In Exercises 7 and 8, $F = E = \mathbb{C}$ in theorem 22.4. Compute for the indicated evaluation homomorphism:
+
+<br>
+
+### Exercise 7
+
+$\phi_2(x^2 + 3)$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+### Exercise 8
+
+$\phi_{i}(2x^3 - x^2 + 3x + 2)$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+In Exercises 9 through 11, $F = E = \mathbb{Z}_7$ in Theorem 22.4. Compute for the indicated evaluation homomorphism.
+
+<br>
+
+### Exercise 9
+
+$\phi_{3}[(x^4 + 2x)(x^3 - 3x^2 + 3)]$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+### Exercise 10
+
+$\phi_{5}[(x^3 + 2)(4x^2 + 3)(x^7 + 3x^2 + 1)]$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+### Exercise 11
+
+$\phi_{4}(3x^{106} + 5x^{99} + 2x^{53})$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
 <br>
 
 # Solutions
@@ -192,11 +295,15 @@ Each coefficient $a_i$ has 5 possibilities: 0, 1, 2, 3, 4. So, we have $5 \cdot 
 
 ## Exercise 7
 
+$\phi_2(x^2 + 3) = (2^2 + 3) = 7$
+
 ---
 
 <br>
 
 ## Exercise 8
+
+$\phi_{i}(2x^3 - x^2 + 3x + 2) = 2i^3 - i^2 + 3i + 2 = i + 3$
 
 ---
 
@@ -204,17 +311,30 @@ Each coefficient $a_i$ has 5 possibilities: 0, 1, 2, 3, 4. So, we have $5 \cdot 
 
 ## Exercise 9
 
+```math
+\phi_{3}[(x^4 + 2x)(x^3 - 3x^2 + 3)] = (3^4 + 2*3)(3^3 - 3*3^2 + 3) = 2
+```
+
 ---
 
 <br>
 
 ## Exercise 10
 
+```math
+\phi_{5}[(x^3 + 2)(4x^2 + 3)(x^7 + 3x^2 + 1)] = (5^3 + 2)(4*5^2 + 3)(5^7 + 3*5^2 + 1) = 6
+```
+
 ---
 
 <br>
 
 ## Exercise 11
+
+```math
+\phi_{4}(3x^{106} + 5x^{99} + 2x^{53}) = (3*4^{106} + 5*4^{99} + 2*4^{53}) = 0
+```
+(I used `pow()` python's function to calculate this :D)
 
 ---
 
