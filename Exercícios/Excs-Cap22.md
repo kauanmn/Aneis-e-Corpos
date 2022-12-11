@@ -82,6 +82,44 @@ $f(x) = 2x^3 + 4x^2 + 3x + 2, g(x) = 3x^4 + 2x + 4$ in $\mathbb{Z}_5[x]$
 
 
 <br>
+
+### Exercise 5
+
+How many polynomials are there of degree $\le 3$ in $\mathbb{Z}_2[x]$? (include 0).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+### Exercise 6
+
+How many polynomials are there of degree $\le 2$ in $\mathbb{Z}_5[x]$? (include 0).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
 <br>
 
 # Solutions
@@ -130,11 +168,23 @@ $f(x)g(x) = x^7 + 2x^6 + 4x^5 + x^3 + 2x^2 + x + 3$
 
 ## Exercise 5
 
+Polynomials in $\mathbb{Z}_2[x]$ with degree $\le 3$ have the following form:
+
+$a_{3}x^3 + a_{2}x^2 + a_{1}x + a_{0}$
+
+Each coefficient $a_i$ has 2 possibilities: 0, 1. So, we have $2 \cdot 2 \cdot 2 \cdot 2 = 16$ possible polynomials.
+
 ---
 
 <br>
 
 ## Exercise 6
+
+Polynomials in $\mathbb{Z}_5[x]$ with degree $\le 2$ have the following form:
+
+$a_{2}x^2 + a_{1}x + a_{0}$
+
+Each coefficient $a_i$ has 5 possibilities: 0, 1, 2, 3, 4. So, we have $5 \cdot 5 \cdot 5 = 125$ possible polynomials.
 
 ---
 
