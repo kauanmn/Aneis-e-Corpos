@@ -6,7 +6,7 @@ Página com as definições e termos usados na disciplina.
 <br>
 
 
-## Conteúdo
+## Lista de Conteúdo
 
 **PARTE 1 - ANEIS**
 
@@ -63,6 +63,12 @@ Página com as definições e termos usados na disciplina.
 - [Raiz com Multiplicidade](#raiz-com-multiplicidade)
 - [Domínio de Ideais Principais](#domínio-de-ideais-principais)
 - [Polinômio Irredutível](#polinômio-irredutível)
+- [Conteúdo](#conteúdo)
+- [Primitivo](#primitivo)
+- [Polinômio Irredutível para DI](#polinômio-irredutível-para-di)
+- [a divide b e unidade](#a-divide-b-e-unidade)
+- [Irredutível](#irredutível)
+- [Domínio de Fatoração Única](#domínio-de-fatoração-única)
 
 <br>
 
@@ -616,3 +622,82 @@ Sejam $F$ um corpo e $f(x) \in F[x], f(x)$ um polinômio não constante.
 Com $\text{deg}(f_1) < \text{deg}(f)$ e $\text{deg}(f_2) < \text{deg}(f)$.
 
 Caso contrário, dizemos que $f(x)$ é **IRREDUTÍVEL** em $F$.
+
+
+
+
+
+<br>
+
+## Conteúdo
+
+Seja $f(x) = a_{n}x^n + \cdots + a_{1}x + a_0 \in \mathbb{Z}[x], f(x) \neq 0$.
+
+💡 Então, o **CONTEÚDO** de $f$ é o máximo divisor comum dos inteiros $a_{n}, a_{n-1}, \cdots, a_0$
+
+
+
+
+
+<br>
+
+## Primitivo
+
+Seja $f(x) = a_{n}x^n + \cdots + a_{1}x + a_0 \in \mathbb{Z}[x], f(x) \neq 0$.
+
+💡 Se o conteúdo de $f$ for $0$, então $f$ é **PRIMITIVO**
+
+
+
+
+
+<br>
+
+## Polinômio Irredutível para DI
+
+Sejam $D$ um domínio de integridade e $f(x) \in D[x]$ tal que $f \neq 0$ e $f$ não é uma unidade de $D$.
+
+💡 Se $f(x) = g(x)h(x)$, para $g(x), h(x) \in D[x]$, implica que $g(x)$ é uma unidade de $D$ ou $h(x)$ é uma unidade de $D$, então dizemos que $f$ é **IRREDUTÍVEL**.
+
+Caso contrário, $f$ é **REDUTÍVEL**.
+
+
+
+
+
+<br>
+
+## a divide b e unidade
+
+Seja $R$ um anel comutativo com 1
+
+💡 Sejam $a,b \in R$. Dizemos que $a \vert b$ ( $a$ **DIVIDE** $b$ ) em $R$ se $\exists c \in R$ tal que $b = ca$.
+
+💡 $u \in R$ é uma **UNIDADE** se $u \vert 1$
+
+
+
+
+
+<br>
+
+## Irredutível
+
+Seja $D$ um domínio de integridade.
+
+💡 $p \neq 0, p \in D$ é **IRREDUTÍVEL** se $p = a \cdot b$ implica que $a$ ou $b$ é unidade.
+
+
+
+
+
+<br>
+
+## Domínio de Fatoração Única
+
+Seja $D$ um domínio de integridade.
+
+💡 $D$ é um **DOMÍNIO DE FATORAÇÃO ÚNICA** (DFU) se satisfaz as seguintes condições:
+
+1. Se $d \in D, d \neq 0$ e $d$ não é unidade, então $d$ pode ser fatorado como um produto finito de irredutíveis
+2. Sejam $p_1,\cdots,p_r$ e $q_1,\cdots,q_s$ duas fatorações do mesmo elemento em $D$ como produto de irredutíveis. Então $r = s$ e $p_i = u_{i}q_{i}$, para $u_i$ uma unidade
