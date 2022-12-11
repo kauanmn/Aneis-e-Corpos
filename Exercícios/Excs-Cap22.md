@@ -5,7 +5,7 @@
 
 <br>
 
-In Exercises 1 through 4, find the sum and the product of the given polynomials in the given polynomial ring.
+**In Exercises 1 through 4, find the sum and the product of the given polynomials in the given polynomial ring.**
 
 ### Exercise 1
 
@@ -120,10 +120,9 @@ How many polynomials are there of degree $\le 2$ in $\mathbb{Z}_5[x]$? (include 
 
 
 <br>
-
-In Exercises 7 and 8, $F = E = \mathbb{C}$ in theorem 22.4. Compute for the indicated evaluation homomorphism:
-
 <br>
+
+**In Exercises 7 and 8, $F = E = \mathbb{C}$ in theorem 22.4. Compute for the indicated evaluation homomorphism:**
 
 ### Exercise 7
 
@@ -162,10 +161,9 @@ $\phi_{i}(2x^3 - x^2 + 3x + 2)$
 
 
 <br>
-
-In Exercises 9 through 11, $F = E = \mathbb{Z}_7$ in Theorem 22.4. Compute for the indicated evaluation homomorphism.
-
 <br>
+
+**In Exercises 9 through 11, $F = E = \mathbb{Z}_7$ in Theorem 22.4. Compute for the indicated evaluation homomorphism.**
 
 ### Exercise 9
 
@@ -208,6 +206,85 @@ $\phi_{5}[(x^3 + 2)(4x^2 + 3)(x^7 + 3x^2 + 1)]$
 ### Exercise 11
 
 $\phi_{4}(3x^{106} + 5x^{99} + 2x^{53})$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+
+**In Exercises 12 through 15, finda all zeros in the indicated finite field of the given polynomial with coefficients in that field. [Hint: one way is simply to try all candidates]**
+
+### Exercise 12
+
+$x^2 + 1$ in $\mathbb{Z}_2$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+### Exercise 13
+
+$x^3 + 2x + 2$ in $\mathbb{Z}_7$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+### Exercise 14
+
+$x^5 + 3x^3 + x^2 + 2x$ in $\mathbb{Z}_5$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+### Exercise 15
+
+$f(x)g(x)$ where $f(x) = x^3 + 2x^2 + 5$ and $g(x) = 3x^2 + 2x$ in $\mathbb{Z}_7$
 
 
 
@@ -342,11 +419,30 @@ $\phi_{i}(2x^3 - x^2 + 3x + 2) = 2i^3 - i^2 + 3i + 2 = i + 3$
 
 ## Exercise 12
 
+| $x$ | $x^2 + 1$ |
+|-----|-----------|
+| 0   | 1         |
+| 1   | 0         |
+
+Zeroes: $\\{ 1 \\}$
+
 ---
 
 <br>
 
 ## Exercise 13
+
+| $x$ | $x^3 + 2x + 2$ |
+|-----|----------------|
+| 0   | 2              |
+| 1   | 5              |
+| 2   | 0              |
+| 3   | 0              |
+| 4   | 4              |
+| 5   | 4              |
+| 6   | 6              |
+
+Zeroes: $\\{ 2, 3 \\}$
 
 ---
 
@@ -354,11 +450,33 @@ $\phi_{i}(2x^3 - x^2 + 3x + 2) = 2i^3 - i^2 + 3i + 2 = i + 3$
 
 ## Exercise 14
 
+| $x$ | $x^5 + 3x^3 + x^2 + 2x$ |
+|-----|-------------------------|
+| 0   | 0                       |
+| 1   | 2                       |
+| 2   | 4                       |
+| 3   | 4                       |
+| 4   | 0                       |
+
+Zeroes: $\\{ 0, 4 \\}$
+
 ---
 
 <br>
 
 ## Exercise 15
+
+| $x$ | $f(x)g(x)$ |
+|-----|------------|
+| 0   | 0          |
+| 1   | 5          |
+| 2   | 0          |
+| 3   | 5          |
+| 4   | 0          |
+| 5   | 5          |
+| 6   | 6          |
+
+Zeroes: $\\{ 0, 2, 4 \\}$
 
 ---
 
