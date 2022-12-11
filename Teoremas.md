@@ -557,6 +557,6 @@ $\langle p(x) \rangle$ é maximal $\iff p(x)$ é irredutível sobre $F$.
 
 Sejam $F$ um corpo e $f(x) \in F[x]$ um polinômio não constante.
 
-$f(x)$ pode ser escrito como produto finito de polinômios irredutíveis em $F[x].
+$f(x)$ pode ser escrito como produto finito de polinômios irredutíveis em $F[x]$.
 
 Tal fatoração é única exceto pela ordem dos fatores e um elemento não nulo de $F$.
