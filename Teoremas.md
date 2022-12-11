@@ -417,3 +417,146 @@ Se $\text{deg}(f) = n$, então $f(x)$ tem, no máximo, $n$ raízes em $F$ (conta
 ### ⚠️ TEOREMA ⚠️
 
 Se $F$ é um corpo, então $F[x]$ é um domínio de ideais principais.
+
+
+
+<br>
+
+### ⚠️ TEOREMA ⚠️
+
+Sejam $F$ um corpo e $f(x) \in F[x]$ de grau 2 ou 3.
+
+$f(x)$ é redutível sobre $F \iff f(x)$ tem uma raiz em $F$.
+
+
+
+<br>
+
+### ⚠️ LEMA DE GAUSS ⚠️
+
+O produto de dois polinômios primitivos é um polinômio primitivo.
+
+
+
+<br>
+
+### ❗ Notação
+
+Seja $f \in \mathbb{Z}[x]$.
+
+Denotamos por $\overline{f_p}(x)$ o polinômio obtido reduzindo com módulo $p$ os coeficientes de $f$.
+
+
+
+<br>
+
+### ⚠️ TEOREMA ⚠️
+
+Sejam $F$ corpo e $f(x) \in \mathbb{Z}[x]$
+
+Se $f(x)$ redutível em $Q[x]$, então $f(x)$ é redutível em $\mathbb{Z}[x]$.
+
+
+
+<br>
+
+### ⚠️ TEOREMA ⚠️
+
+Sejam $F$ corpo e $f(x) \in \mathbb{Z}[x]$
+
+Se $f(x)$ é irredutível em $\mathbb{Z}[x]$, então $f$ é irredutível em $Q[x]$.
+
+
+
+<br>
+
+### Corolário
+
+Seja $f(x) \in \mathbb{Z}[x], f(x) = x^n + a_{n-1}x^{n-1} + \cdots + a_{1}x + a_0$, com $a_0 \neq 0$.
+
+Se $f$ tem um zero $\alpha \in Q$, então $f(x)$ tem um zero $m \in \mathbb{Z}$ e $m \vert a_0$
+
+
+
+<br>
+
+### ⚠️ TEOREMA DA IRREDUTIBILIDADE MOD P ⚠️
+
+Sejam $p \in \mathbb{N}$ um número primo e $f(x) \in \mathbb{Z}[x]$ tal que $\text{deg}(f(x)) \ge 1$.
+
+Se $\overline{f_p}(x)$ é irredutível em $\mathbb{Z}_{p}[x]$ e $\text{deg}(f(x)) = \text{deg}(\overline{f_p}(x))$, então $f(x)$ é irredutível sobre $Q$.
+
+
+
+<br>
+
+### Observação
+
+Se $\exists p$ primo tal que $\overline{f_p}(x))$ é irredutível em $\mathbb{Z}_p[x]$, então $f(x)$ é irredutível em $Q[x]$. PORÉM, a recíproca não é verdadeira: se for redutível no primeiro, não necessariamente será redutível no segundo.
+
+
+
+<br>
+
+### ⚠️ CRITÉRIO DE EISENSTEIN ⚠️
+
+Seja $f(x) = a_{n}x_{n} + \cdots + a_{1}x + a_0 \in \mathbb{Z}[x]$.
+
+Se existe um primo $p$ tal que:
+
+1. $p \nmid a_{n}$
+2. $p \mid a_{n-1}, \cdots, p \mid a_1, p \mid a_0$
+3. $p^2 \nmid a_0$
+
+Então $f(x)$ é irredutível sobre $Q$
+
+
+
+<br>
+
+### Corolário
+
+Para qualquer primo $p$, o polinômio ciclotômico
+
+```math
+\Phi_p(x) = \frac{x^p -1}{x-1} = x^{p-1} + \cdots + x + 1
+```
+
+é irredutível sobre $Q$.
+
+
+
+<br>
+
+### ⚠️ TEOREMA ⚠️
+
+Seja $F$ é um corpo e $p(x) \in F[x]$.
+
+$\langle p(x) \rangle$ é maximal $\iff p(x)$ é irredutível sobre $F$.
+
+
+
+<br>
+<br>
+
+## ❗ IMPORTANTE ❗
+
+```math
+\begin{aligned}
+    \langle p(x) \rangle \text{ maximal } &\iff p(x) \text{ irredutivel}\\
+    & \iff F[x]/\langle p(x) \rangle \text{ corpo}
+\end{aligned}
+```
+
+
+
+<br>
+<br>
+
+### ⚠️ TEOREMA ⚠️
+
+Sejam $F$ um corpo e $f(x) \in F[x]$ um polinômio não constante.
+
+$f(x)$ pode ser escrito como produto finito de polinômios irredutíveis em $F[x].
+
+Tal fatoração é única exceto pela ordem dos fatores e um elemento não nulo de $F$.
