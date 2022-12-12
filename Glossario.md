@@ -582,7 +582,7 @@ Sejam $F$ um corpo e $f(x), t(x) \in F[x]$.
 
 ## Raiz
 
-Sejam $R$ um anel comunitativo com unidade e $f \in R[x]$ um polinômio sobre $R$.
+Sejam $R$ um anel comutativo com unidade e $f \in R[x]$ um polinômio sobre $R$.
 
 💡 A **RAIZ** (ou ZERO) de um polinômio é um elemento $x \in R$ tal que $f(x) = 0$.
 
@@ -668,9 +668,9 @@ Seja $f(x) = a_{n}x^n + \cdots + a_{1}x + a_0 \in \mathbb{Z}[x], f(x) \neq 0$.
 
 ## Polinômio Irredutível para DI
 
-Sejam $D$ um domínio de integridade e $f(x) \in D[x]$ tal que $f \neq 0$ e $f$ não é uma unidade de $D$.
+Sejam $D$ um domínio de integridade e $f(x) \in D[x]$ tal que $f \neq 0$ e $f$ não é uma unidade de $D[x]$.
 
-💡 Se $f(x) = g(x)h(x)$, para $g(x), h(x) \in D[x]$, implica que $g(x)$ é uma unidade de $D$ ou $h(x)$ é uma unidade de $D$, então dizemos que $f$ é **IRREDUTÍVEL**.
+💡 Se $f(x) = g(x)h(x)$, para $g(x), h(x) \in D[x]$, implica que $g(x)$ é uma unidade de $D[x]$ ou $h(x)$ é uma unidade de $D[x]$, então dizemos que $f$ é **IRREDUTÍVEL**.
 
 Caso contrário, $f$ é **REDUTÍVEL**.
 
@@ -686,7 +686,7 @@ Seja $R$ um anel comutativo com 1
 
 💡 Sejam $a,b \in R$. Dizemos que $a \vert b$ ( $a$ **DIVIDE** $b$ ) em $R$ se $\exists c \in R$ tal que $b = ca$.
 
-💡 $u \in R$ é uma **UNIDADE** se $u \vert 1$
+💡 $u \in R$ é uma **UNIDADE** se $u \mid 1$
 
 
 
