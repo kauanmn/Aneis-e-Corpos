@@ -19,7 +19,7 @@
 f(x) = q(x)g(x) + r(x)
 ```
 
-- $g(x), r(x)$ únicos
+- $q(x), r(x)$ únicos
 - $\text{deg}(r) < \text{deg}(f)$ ou $r(x) = 0$
 
 <br>
