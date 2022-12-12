@@ -378,6 +378,14 @@ Every polynomial without zeroes are irreducible.
 
 ## Exercise 36
 
+By Division Theorem, we know that $f(x) = q(x)(x-a) + r(x)$. Because $r(x)$ has a smaller degree than $g(x) = (x-a)$, then $r(x) = c$, a constant.
+
+Applying the evaluation homomorphism, we have:
+
+$\phi_{a}(f(x)) = f(a) = q(a)(a-a) + c = c$
+
+The remainder is $c = f(a)$, Q.E.D.
+
 ---
 
 <br>
