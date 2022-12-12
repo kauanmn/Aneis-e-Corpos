@@ -25,7 +25,7 @@ Se $f(x)$ é irredutível para $x \in \mathbb{Z}$, então $f(x)$ é irredutível
 
 Seja $f(x) = x^4 + x^3 + x^2 + x + 1$.
 
-Suponha que $f(x)$ é redutível. Assim, caímos em dois casos: `(a)` há um fator de grau 3 e outro de grau 1; ou `(b)` há dois fatores de grau 2.
+Suponha que $f(x)$ seja redutível em $\mathbb{Q}[x]$. Assim, caímos em dois casos: `(a)` $f(x)$ tem um fator de grau 3 e outro de grau 1; ou `(b)` $f(x)$ tem dois fatores de grau 2.
 
 `(a)` $f(x) = (x + a)(x^3 + bx^2 + cx + d)$. Logo, $-a \in \mathbb{Q}$ é raiz de $f(x)$. Então, de acordo com o teorema visto em aula, $f(x)$ tem que ter uma raiz $m \in \mathbb{Z}$ que divide $a_0$. As possibilidades são $\pm 1$, porém $f(1) \neq 0$ e $f(-1) \neq 0$. Portanto, este caso não é possível.
 
