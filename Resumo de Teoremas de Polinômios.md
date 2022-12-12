@@ -107,7 +107,7 @@ Para $f(x) \in \mathbb{Z}[x]$, se existe um $p$ primo que:
 2. $p \mid a_{n-1}, \cdots, p \mid a_1, p \mid a_0$
 3. $p^2 \nmid a_0$
 
-Então $f(x)$ IRREDUTÍVEL sobre $Q$
+Então $f(x)$ IRREDUTÍVEL sobre $Q[x]$
 
 <br>
 <br>
