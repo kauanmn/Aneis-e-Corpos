@@ -381,7 +381,9 @@ onde $r(x) = 0$ ou $\text{deg}(r) < \text{deg}(g)$
 
 ### ⚠️ TEOREMA DO FATOR ⚠️
 
-Sejam $F$ um corpo e $\alpha \in F$. Então $\alpha$ é uma raiz de $f(x) \in F[x]$ se, e somente se, $(x-\alpha)$ é um fator de $f(x)$ em $F[x]$.
+Sejam $F$ um corpo e $\alpha \in F$
+
+Então $\alpha$ é uma raiz de $f(x) \in F[x]$ se, e somente se, $(x-\alpha)$ é um fator de $f(x)$ em $F[x]$.
 
 ```math
 \displaylines{
