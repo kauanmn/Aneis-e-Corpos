@@ -1,11 +1,9 @@
 # A First Course in Abstract Algebra
 **John B. Fraleigh**<br>
 
-## Chapter 22 - Exercises
+## Chapter 23 - Exercises
 
 <br>
-
-**In Exercises 1 through 4, find the sum and the product of the given polynomials in the given polynomial ring.**
 
 ### Exercise 1
 
@@ -141,6 +139,8 @@ $f(x) = q(x)g(x) + r(x)$
 
 ## Exercise 2
 
+
+
 ---
 
 <br>
@@ -182,6 +182,12 @@ $f(x) = q(x)g(x) + r(x)$
 <br>
 
 ## Exercise 9
+
+In $\mathbb{Z}_5, x^4 + 4 = x^4 - 1 = x^4 - 1^4 = (x^2 + 1)(x^2 - 1)$.
+
+Again, we can do the same trick with $1 = -4$ in $\mathbb{Z}_5$:
+
+$(x^2 + 1)(x^2 - 1) = (x^2 - 2^2)(x^2 - 1^2) = (x + 2)(x - 2)(x + 1)(x - 1)$
 
 ---
 
@@ -302,6 +308,33 @@ $f(x) = q(x)g(x) + r(x)$
 <br>
 
 ## Exercise 29
+
+Just check which polynomial don't have roots:
+
+Considering $\mathbb{Z}_3$:
+
+| $f(x)$          | Has zero/reducible |
+|-----------------|--------------------|
+| $x^2$           | YES                |
+| $x^2 + 1$       | NO                 |
+| $x^2 + 2$       | YES                |
+| $x^2 + x$       | YES                |
+| $x^2 + x + 1$   | YES                |
+| $x^2 + x + 2$   | NO                 |
+| $x^2 + 2x$      | YES                |
+| $x^2 + 2x + 1$  | YES                |
+| $x^2 + 2x + 2$  | NO                 |
+| $2x^2$          | YES                |
+| $2x^2 + 1$      | YES                |
+| $2x^2 + 2$      | NO                 |
+| $2x^2 + x$      | YES                |
+| $2x^2 + x + 1$  | NO                 |
+| $2x^2 + x + 2$  | YES                |
+| $2x^2 + 2x$     | YES                |
+| $2x^2 + 2x + 1$ | NO                 |
+| $2x^2 + 2x + 2$ | YES                |
+
+Every polynomial without zeroes are irreducible.
 
 ---
 
