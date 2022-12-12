@@ -94,7 +94,7 @@ Se:
 - $\overline{f_p}(x)$ irredutível em $\mathbb{Z}_p[x]$
 - $\text{deg}(f(x)) = \text{deg}(\overline{f_p}(x))$
 
-Então $f(x)$ é IRREDUTÍVEL sobre $Q$
+Então $f(x)$ é IRREDUTÍVEL sobre $Q[x]$
 
 <br>
 <br>
